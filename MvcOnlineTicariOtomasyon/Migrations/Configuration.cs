@@ -10,6 +10,7 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            ContextKey = "MvcOnlineTicariOtomasyon.Models.Siniflar.Context";
         }
 
         protected override void Seed(MvcOnlineTicariOtomasyon.Models.Siniflar.Context context)
